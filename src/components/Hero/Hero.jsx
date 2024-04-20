@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Hero.module.css';
 import { Link } from 'react-router-dom';
 import Button from '../common/Button/Button';
-import text_img from './text.svg';
+
 import logo from '../../assets/TECH_UDBHAV_TEXT-removebg-preview.png';
 
 const Hero = () => {
