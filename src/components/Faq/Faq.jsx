@@ -5,21 +5,21 @@ const questions = [
   {
     question: 'What is Tech Udhbhav 2K24?',
     answer:
-      'Tech Udbhav 2k24  is the one of biggest Technical event in BIT Sindri.',
+      'Tech Udbhav 2k24  is  one of the  biggest Technical event in BIT Sindri.',
   },
-  {
-    question: 'What are the Dates and Timings of event?',
-    answer:
-      'The event will start at 9AM on 20th Feb and will be till 21st of Feb 10 PM',
-  },
+
   {
     question: 'How can I participate in the event?',
     answer:
       'Explore various events on the Tech Udhbhav website and register for the same',
   },
   {
-    question: 'Is there any entry fee for Tech Udbhav 2k23?',
-    answer: 'No, there is not any entry fee to explore Tech Udbhav 2k23 .',
+    question: 'Is there any entry fee for Tech Udbhav 2k24?',
+    answer: 'No, there is not any entry fee to explore Tech Udbhav 2k24 .',
+  },
+  {
+    question: 'Will I get participation certificate ?',
+    answer: 'Yes you will be provided with digital certificate.',
   },
 ];
 
@@ -53,12 +53,6 @@ const Faq = () => {
             </div>
           );
         })}
-
-        {/* <div className={classes.single}>
-                <div className={classes.question}>How are you?</div>
-                <div className={classes.answer}>I am fine</div>
-                <span className={classes.btn}>+</span>
-            </div> */}
       </div>
     </section>
   );

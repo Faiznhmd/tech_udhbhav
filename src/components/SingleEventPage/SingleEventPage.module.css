@@ -78,6 +78,11 @@
 .headingp {
   background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
 }
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .content {
   font-size: 16px;

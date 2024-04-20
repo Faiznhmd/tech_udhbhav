@@ -160,11 +160,11 @@ const Navbar = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://grabbits.vercel.app/"
+            href="https://ietebits.com/"
           >
             {/* <button className={classes.btn1}>GrabBit</button> */}
             <div className={classes.btn1}>
-              <MainSite label="GrabBit" />
+              <MainSite label="Main Site" />
             </div>
           </a>
 
@@ -242,9 +242,9 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: 'white', textDecoration: 'none' }}
               >
-                <Link className={classes.homeLink} to="/leaderboard">
+                {/* <Link className={classes.homeLink} to="/leaderboard">
                   Leaderboard
-                </Link>
+                </Link> */}
               </Drop>
             </li>
             <li>
@@ -258,7 +258,10 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: 'white', textDecoration: 'none' }}
               >
-                <Link className={classes.homeLink} to="/contact">
+                <Link
+                  className={classes.homeLink}
+                  to="https://ietebits.com/contact"
+                >
                   Contact
                 </Link>
               </Drop>

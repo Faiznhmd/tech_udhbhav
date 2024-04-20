@@ -1,7 +1,7 @@
-import React from "react";
-import classes from "./EventSection.module.css";
-import Button from "../common/Button/Button";
-import event from "./event.svg";
+import React from 'react';
+import classes from './EventSection.module.css';
+import Button from '../common/Button/Button';
+import event from './event.svg';
 
 const EventSection = () => {
   return (
@@ -10,7 +10,7 @@ const EventSection = () => {
         <div className={classes.about}>
           <div className={classes.details}>
             {/* <h3 className={classes.heading}>About</h3> */}
-            <h2 className={classes.heading1}>EVENTS</h2>
+            <h2 className={classes.heading1}> OUR EVENTS</h2>
             <p className={classes.para}>
               SAMBHAV reflects the spirit of the festival and its mission to
               provide a platform for individuals to push their limits and

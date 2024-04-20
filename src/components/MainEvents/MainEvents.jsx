@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import EventCard from "../common/EventCard/EventCard";
-import classes from "./MainEvents.module.css";
+import React, { useEffect } from 'react';
+import EventCard from '../common/EventCard/EventCard';
+import classes from './MainEvents.module.css';
 // import SwupOverlayTheme from "@swup/overlay-theme";
 // import Swup from "swup";
-import { eventsData } from "../../assets/eventsData";
-import ReactGA from "react-ga";
+import { eventsData } from '../../assets/eventsData';
+import ReactGA from 'react-ga';
 
 const MainEvents = () => {
   // const swup = new Swup({
@@ -23,7 +23,7 @@ const MainEvents = () => {
   return (
     <>
       <div className={classes.events_section}>
-        <h1 className={classes.heading}>Events</h1>
+        <h1 className={classes.heading}> Our Events</h1>
         <img src="x" alt="" />
         <div className={classes.events_container}>
           {eventsData.map((eventData, i) => {
