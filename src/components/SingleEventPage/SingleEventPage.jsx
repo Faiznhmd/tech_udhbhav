@@ -10,7 +10,7 @@ const SingleEventPage = () => {
   console.log(eventId);
 
   const requiredEvent = eventsData.find((event) => event.id === +eventId);
-  const { name, image, description, RuleBook, Googleform } = requiredEvent;
+  const { name, image, description, Googleform } = requiredEvent;
 
   return (
     <>
@@ -38,8 +38,12 @@ const SingleEventPage = () => {
               </>
             )} */}
             <div className="buttons">
-              <Button hrefLink={Googleform} label="Register" />
-              <Button hrefLink={RuleBook} label="Rule Book" />
+              <div className="button1">
+                <Button hrefLink={Googleform} label="Register" />
+              </div>
+              {/* <div className="button2">
+                <Button hrefLink={RuleBook} label="Rule Book" />
+              </div> */}
             </div>
           </div>
         </div>

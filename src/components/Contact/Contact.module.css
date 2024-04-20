@@ -85,17 +85,21 @@
 .mapBox {
   align-items: center;
   width: 500px;
-  height: 400px;
+  height: 250px;
   background: #000;
   border-radius: 4px;
 }
 
 .map {
   max-width: 100%;
-  height: 400px;
+  height: 100%;
   border-radius: 4px;
 }
-
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media screen and (max-width: 768px) {
   .heading::after {
     width: 100px;

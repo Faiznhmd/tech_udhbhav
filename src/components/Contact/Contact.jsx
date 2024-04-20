@@ -1,6 +1,6 @@
 import Faq from '../Faq/Faq';
 import classes from './Contact.module.css';
-import mainPoster from '../../assets/assets/hero-bannerr.jpeg';
+// import mainPoster from '../../assets/assets/hero-bannerr.jpeg';
 
 const Contact = () => {
   return (
@@ -9,9 +9,9 @@ const Contact = () => {
         <div className={classes.contentBox}>
           <Faq />
 
-          <div className={classes.mapBox}>
+          {/* <div className={classes.mapBox}>
             <img src={mainPoster} alt="" className="classes.map" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
